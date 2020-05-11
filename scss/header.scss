@@ -1,0 +1,130 @@
+
+
+.full {
+	display: flex;
+	height: 958px;
+	justify-content: center;
+	background: url("../img/bg_header.jpg") 0 0px / cover no-repeat;
+}
+
+.full__body {}
+
+.header {}
+
+.container {}
+
+.header__nav {
+
+}
+
+.header__logo {
+	text-align: center;
+	padding-top: 35px;
+}
+
+.header__title {
+	font-family: Bebas Neue;
+	font-size: 53px;
+	line-height: 33px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding-top: 150px;
+}
+
+.header__sub-title {
+	font-family: Bebas Neue;
+	font-size: 18px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	padding-top: 25px;
+}
+
+.header__link {
+	padding-top: 20px;
+	a{
+		width: 210px;
+		margin: 0 auto;
+		height: 44px;
+		background: linear-gradient(183.14deg, #FFB548 11.27%, #F3AF34 90.4%);
+		border-radius: 2.94008px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		p:first-child{
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			line-height: 19px;
+			text-align: center;
+			color: #1A1917;
+			position: relative;
+			&:after{
+				content: "";
+				position: absolute;
+				background-color: #1A1917;
+				width: 1px;
+				height: 18px;
+				opacity: 0.5;
+				top: 0;
+				left: 105%;
+			}
+		}
+		p:last-child{
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			line-height: 19px;
+			text-align: center;
+			color: #1A1917;
+		}
+	}
+}
+
+@media(max-width: 1914px) {
+	.full {
+		display: flex;
+		min-height: 100vh;
+		justify-content: center;
+		background: url("../img/bg_header.jpg") 0 0px / cover no-repeat;
+	}
+}
+@media(max-width: 768px) {
+	.full {
+		display: flex;
+		min-height: 100vh;
+		justify-content: center;
+		background: url("../img/bg_header.jpg") 0 0px / cover no-repeat;
+	}
+}
+@media(max-width: 648px) {
+	.full {
+		display: flex;
+		min-height: 100vh;
+		justify-content: center;
+		background: url("../img/bg_header.jpg") -300px 0px / cover no-repeat;
+	}
+}
+@media(max-width: 436px) {
+	.header__title{
+		font-size: 35px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.header__sub-title{
+		font-size: 16px;
+	}
+}
+@media(max-width: 360px) {
+	.full {
+		display: flex;
+		min-height: 100vh;
+		justify-content: center;
+		background: url("../img/bg_header.jpg") -230px 0px / cover no-repeat;
+	}
+}
